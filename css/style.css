@@ -1,0 +1,154 @@
+:root {
+    --color-primary: #212121;
+    --color-secondary:#757575;
+    --color-hover:#2196F3;
+    --color-filter:#F5F4FA;
+    --color--white:#FFFFFF;
+
+}
+li{
+    list-style: none;
+}
+body {
+    color:var(--color-primary);
+    font-family: 'Roboto', sans-serif;
+}
+/* Шапка */
+.topline{
+    color: var(--color-hover);
+    font-family: Raleway;
+    text-decoration: none;
+}
+.toplinesecond{
+    color:#000000;
+    font-family: Raleway;
+    text-decoration: none;
+}
+
+.back{
+    background:#F5F5F5
+}
+/* Про нас шапка */
+.aboutus {
+    color: var(--color-primary);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.142;
+}
+.aboutus:hover{
+color: var(--color-hover);
+}
+.aboutus:active{
+    background-color: var(--color-hover);
+}
+
+.contacts{
+    color: var(--color-secondary);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.142;
+}
+.contacts:hover{
+color: var(--color-hover);
+}
+/* Бааадііі */
+.hero-title{
+    color:var(--color--white);
+    font-family: 'Roboto', sans-serif;
+    background-color: #2F303A;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 44px;
+    line-height: 1.363;
+} 
+.button{
+    color:var(--color--white);
+    background-color:var(--color-hover);
+    border-color:var(--color-hover);
+    font-family: 'Roboto', sans-serif;
+}
+/* Наші переваги */
+
+.ouradvantages{
+    color: var(--color-primary);
+}
+
+.whyso{
+    color:var(--color-secondary) ;
+}
+
+.ourwork{
+    color: var(--color-primary);
+}
+.our-team{
+    background: #F5F4FA;
+}
+.comand-team{
+    background-color:var(--color--white);
+}
+.comand{
+    color: var(--color-primary);
+}
+.name-employee{
+    color: var(--color-primary);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.187;
+}
+.employee{
+    color: var(--color-secondary);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.187;
+}
+.buttontwopage{
+    color: var(--color-primary);
+    background-color: var(--color-filter);
+    border-color:#F5F4FA;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    }
+.buttontwopage:hover{
+    color: var(--color--white);
+    background-color: var(--color-hover);
+    border-color: var(--color-hover);
+}
+
+h2{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.142;
+}
+.whyso{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.714;
+}
+.ourwork{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.166;
+}
+address{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+}
+h5{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+}
+.position{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.875;
+
+}
+
+
+
